@@ -1,0 +1,94 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 94%);
+    height: 100%;
+}
+.card{
+    height: 40rem;
+    width: 50%;
+    margin: 10% 25%;
+    padding: 3rem;
+    border-radius: 20px 20px 25% 20px;
+}
+.card-header{
+    background-color: white;
+    border-bottom: none;
+    width: 90%;
+}
+.card-header .col-4{
+    width: 33%;
+    padding: 0;
+}
+.input-header{
+    color: hsl(0, 0%, 57%);
+}
+.error-header{
+    color: hsl(0, 100%, 67%);
+}
+.invalid-day-message{
+    font-style: italic;
+    visibility: hidden;
+}
+.invalid-month-message{
+    font-style: italic;
+    visibility: hidden;
+}
+.invalid-year-message{
+    font-style: italic;
+    visibility: hidden;
+}
+.visible{
+    color: hsl(0, 100%, 67%);
+    visibility: visible;
+}
+.col-4 p{
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+.col-4 input{
+    padding: 15px;
+    width: 80%;
+    border-radius: 7.5px;
+    margin-bottom: 1rem;
+}
+.col-4 input::placeholder{
+    color: hsl(0, 3%, 77%);
+    font-size: 1.5rem;
+}
+.input-valid{
+    border: 1px solid hsl(0, 0%, 86%);
+}
+.input-error{
+    border: 1px solid hsl(0, 100%, 67%);
+}
+.icon-row{
+    display: flex;
+}
+hr{
+    width: 85%;
+    margin-top: 2.25rem;
+}
+#arrowIcon{
+    padding: 20px;
+    width: 12.5%;
+    border-radius: 100%;
+    background-color: hsl(259, 100%, 65%);
+}
+.card-body .empty-space{
+    color: hsl(259, 100%, 65%);
+    margin-right: 5px;
+}
+.card-body h3{
+    font-style: italic;
+    font-weight: 800;
+    font-size: 5rem;
+}
+.attribution { 
+    margin-top: none;
+    font-size: 11px; text-align:
+    center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
